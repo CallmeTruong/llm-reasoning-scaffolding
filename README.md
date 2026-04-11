@@ -53,10 +53,10 @@ Builds a reasoning tree by iteratively selecting, expanding, simulating (rollout
 
 Since MCTS uses significantly more LLM calls, raw accuracy alone is not a fair comparison. The notebook reports:
 
-- **Accuracy** — % of questions answered correctly
-- **Avg tokens** — total API tokens consumed per question
-- **Avg latency** — wall-clock time per question (seconds)
-- **Tokens per correct answer** — efficiency metric
+- **Accuracy** 100 % of questions answered correctly ( test on 20 samples )
+- **Avg tokens** 9,258 total API tokens consumed per question
+- **Avg latency** 149.2 wall-clock time per question (seconds)
+- **Tokens per correct answer** 9,258 efficiency metric
 
 ---
 

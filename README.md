@@ -40,6 +40,7 @@ Generates `n` independent CoT candidates, scores each using a verifier prompt (w
 Constructs a reasoning tree iteratively using the classic MCTS loop. Each node represents a partial reasoning trace; the UCB1 formula balances exploitation of high-value nodes against exploration of less-visited branches.
 
 **MCTS loop:**
+![MCTS loop](/images/simulate.png)
 
 | Step | Description |
 |------|-------------|
@@ -56,6 +57,8 @@ where $c = 1.4$ (tunable for language tasks).
 
 Accuracy: **96.5%**.
 
+
+![MCTS reasoning tree](/images/mcts_tree_q1.png)
 ---
 
 ## Results
